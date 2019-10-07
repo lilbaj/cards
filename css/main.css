@@ -9,11 +9,12 @@ html {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
 .cards li {
   display: inline-block;
-  margin: 0.5em 1em;
+  margin: .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
@@ -21,6 +22,7 @@ html {
   border-radius: 10px;
   text-align: left;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
